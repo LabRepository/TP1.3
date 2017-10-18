@@ -3,8 +3,8 @@ import junit.framework.TestCase;
 public class DeckTest extends TestCase {
 	private Deck deck;
 	protected void setUp() throws Exception {
-        super.setUp();
-        deck = new Deck(52);
+        	super.setUp();
+        	deck = new Deck(52);
    	}
 	public void testFirstCardEqualsAce() throws Exception {
 		setUp();
@@ -35,13 +35,15 @@ public class DeckTest extends TestCase {
 		deck.sort();
 		assert(deck != null);
 	}
+	
 	public void testShuffleFirstCardIsntNull() throws Exception {
         	setUp();
         	Card card = new Card(0,0);
         	deck.shuffle();
         	assertNotNull(deck.getFirstCard());
 	}
-	public void testsuffleFirstCardIsntNull() throws Exception {
+	
+	public void testShuffleFirstCardIsntNull() throws Exception {
         	setUp();
         	Card card = new Card(0,0);
         	deck.shuffle();
