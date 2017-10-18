@@ -1,7 +1,7 @@
 import junit.framework.TestCase;
 
 public class DeckTest extends TestCase {
-	private Deck deck;
+	private Deck deck1;
 	protected void setUp() throws Exception {
         super.setUp();
         deck = new Deck(52);
