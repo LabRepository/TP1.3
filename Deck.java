@@ -1,10 +1,12 @@
 import java.util.Arrays;
 import java.util.Random;
+
 /**
  * 
  * @author Weronika Jasiak
  *
  */
+
 public class Deck {
 	//Index of array equals position in Deck 0 == Top of Deck
 	private Card[] cards;
