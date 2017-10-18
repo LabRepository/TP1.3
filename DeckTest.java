@@ -5,7 +5,7 @@ public class DeckTest extends TestCase {
 	protected void setUp() throws Exception {
         super.setUp();
         deck = new Deck(52);
-    }
+   	}
 	public void testFirstCardEqualsAce() throws Exception {
 		setUp();
 		Card card = new Card(0,0);
@@ -35,7 +35,7 @@ public class DeckTest extends TestCase {
 		deck.sort();
 		assert(deck != null);
 	}
-	public void testSHuffleFirstCardIsntNull() throws Exception {
+	public void testShuffleFirstCardIsntNull() throws Exception {;
         	setUp();
         	Card card = new Card(0,0);
         	deck.shuffle();
