@@ -41,4 +41,10 @@ public class DeckTest extends TestCase {
         	deck.shuffle();
         	assertNotNull(deck.getFirstCard());
 	}
+	public void testsuffleFirstCardIsntNull() throws Exception {
+        	setUp();
+        	Card card = new Card(0,0);
+        	deck.shuffle();
+        	assertNotNull(deck.getFirstCard());
+	}
 }
