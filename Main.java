@@ -9,13 +9,13 @@ public class Main {
 		Deck deck = new Deck(52);
 		if(deck.getCards() != 0) {
 			System.out.println("Deck of " + deck.getCards() + " cards");
-			//deck.shuffle();
-			//deck.sort();
+			deck.shuffle();
+			deck.sort();
 			System.out.println(deck.getFirstCard());
-	    }
-//		else {
-//		System.out.println("Try again!");
-//		}
+	    	}
+		else {
+			System.out.println("Try again!");
+		}
 		
 	}
 }
