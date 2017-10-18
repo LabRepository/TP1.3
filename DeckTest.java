@@ -1,5 +1,5 @@
 import junit.framework.TestCase;
-
+//konflikt 2
 public class DeckTest extends TestCase {
 	private Deck deck;
 	protected void setUp() throws Exception {
